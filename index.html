@@ -13,8 +13,7 @@
 
     <header>
         <nav>
-            
-            <h2 class="nav-logo">SHOP</h2>
+            <h2  class="logo-mobile">SHOP</h2>
             <input class="input" type="checkbox" name="check" id="check">
             <label class="icon-menu" for="check">
                 <i class="fa-solid fa-circle-chevron-down"></i>
@@ -23,21 +22,23 @@
             <div class="menu">
                 <li><a href="#">PROMOS</a></li>
                 <li><a href="#principal">PRINCIPALES</a></li>
-                <li><a href="#">CATEGORÍA</a></li>
-                <li><a href="#">OTROS</a></li>
+                <h2 class="nav-logo">SHOP</h2>
+                <li><a href="#">SOPORTE</a></li>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section class="section-info">
-            <img class="info-img" src="assets/shop.jpg" alt="">
+    <main id="btnsubir">
+        <section class="section-info" >
+       
+        <video src="assets/phone-video.mp4" autoplay muted loop></video>
+        
         <div class="textos">
             <h2>CELULARES SAN MIGUEL</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione distinctio, omnis id quo nesciunt reprehenderit aliquid, maxime earum, vero nobis! Dolores aliquam obcaecati autem quia saepe maxime totam adipisci asperiores aliquid aspernatur placeat beatae consequatur deserunt accusantium corrupti eum, id repudiandae ipsa officia, pariatur, alias magnam nostrum! Mollitia, quisquam.</p>
             <div class="info-btn">
               
-            <a href="#" class="border-btn">DÓNDE ESTAMOS?</a>
+            <a href="#" class="border-btn">¿DÓNDE ESTAMOS?</a>
             </div>
         </div>
         </section>
@@ -54,7 +55,8 @@
             <!-- cards  -->
             <div class="card-container">
             <div class="card">
-                <img src="assets/PHONE-PHOTO.jpg" alt="" class="card-img">
+                <div class="container-img">
+                 </div>
                 <!-- texto  -->
                 <h2>Lorem, ipsum dolor.</h2>
                 <span>$price</span>
@@ -62,7 +64,8 @@
             </div>
 
             <div class="card">
-                <img src="assets/PHONE-PHOTO.jpg" alt="" class="card-img">
+                <div class="container-img">
+                </div>             
                 <!-- texto  -->
                 <h2>Lorem, ipsum dolor.</h2>
                 <span>$price</span>
@@ -70,7 +73,8 @@
             </div>
 
             <div class="card">
-                <img src="assets/PHONE-PHOTO.jpg" alt="" class="card-img">
+                <div class="container-img">
+                </div>                
                 <!-- texto  -->
                 <h2>Lorem, ipsum dolor.</h2>
                 <span>$price</span>
@@ -78,8 +82,8 @@
             </div>
 
             <div class="card nostock">
-                <img src="assets/PHONE-PHOTO.jpg" alt="" class="card-img">
-                <!-- texto  -->
+                <div class="container-img">
+                     </div>                <!-- texto  -->
                 <h2>Lorem, ipsum dolor.</h2>
                 <span>$price</span>
             <a class="btn-disable" href="#">COMPRAR</a>
@@ -87,11 +91,62 @@
                 <div class="sin-stock">SIN STOCK</div>
             </div>
         </div>
+        
         </section>
+          <!-- boton  -->
+
+          <div class="subir-btn">
+            <a href="#btnsubir">
+                <img src="assets/arrow.svg" >
+            </a>
+        </div>
+       
     </main>
 
     <!-- AGREGAR FOOTER  -->
     
+    <footer>
+     <div class="footer-container">  
+        <div class="redes border">
+            <ul class="redes-items flex-column">
+                <h2 class="title-footer">NUESTRAS REDES</h2>
+                <div class="redes-container">
+                    <a class="footer-item" href="#">
+                    <img src="assets/instagram.svg" alt=""> 
+                    <li>INSTAGRAM</li></a>
+                </div>
+                <div class="redes-container">
+                <a class="footer-item" href="#">
+                <img src="assets/twiiter.svg" alt=""> 
+                <li>TWITTER</li></a>
+            </div>
+            <div class="redes-container">
+                <a class="footer-item" href="#">
+                  <img src="assets/tiktok.svg" alt="">
+                  <li>TIKTOK</li></a>
+            </div>
+            </ul>
+        </div>
+        
+        <div class="locales border">
+            <ul class="locales-items flex-column">
+                <h2  class="title-footer">NUESTROS LOCALES </h2>
+                <li><a class="footer-item" href="#">5566 Leda Lane</a></li>
+                <li><a class="footer-item" href="#">737 Brandon Rest</a></li>
+                <li><a class="footer-item"href="#">737 Brandon Rest</a></li>
+            </ul>
+        </div>
+        <div class="horarios border">
+            <ul class="horarios-items flex-column">
+                <h2  class="title-footer">NUESTROS HORARIOS</h2>
+                <li class="footer-item">LUNES Y MARTES: 12HS A 15HS</li>
+                <li class="footer-item">MIERCOLES Y JUEVES: 12HS A 17HS</li>
+                <li class="footer-item">VIERNES Y SÁBADOS: 12HS A 20HS</li>
+                
+            </ul>
+        </div>
+    </div>  
+    </footer>
 
     
 </body>
