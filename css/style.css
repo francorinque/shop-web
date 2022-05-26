@@ -36,6 +36,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+   
    
 }
 
@@ -52,6 +58,7 @@ nav{
     width: 100%;
     max-width: 1200px;
     gap: 8rem;
+ 
 }
 
 .nav-btn{
@@ -64,7 +71,7 @@ nav{
 
 .menu{
     /* display: none; */
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(21, 21, 21);
     position: fixed;
     top: 70px;
     left: 0;
@@ -76,7 +83,7 @@ nav{
     justify-content: space-around ;
     align-items: center;
     width: 100%;
-    z-index: 999;
+    z-index: 500;
     padding: 2rem 0px;
     visibility: none;
     opacity: 0;
@@ -93,11 +100,13 @@ nav{
 .menu a{
     color: #f1f1f1;
     font-size: 1.6rem;
+    position: relative;
+  
 }
 * img{
     width: 70%;
 }
-/** section-1  **/
+/**** section-1  ******/
 
 .section-info{
     background-color: var(--bg);
@@ -144,17 +153,11 @@ nav{
     gap: 40px;
 }
 
-.galery-section a{
-    border-left: 1px solid #f3f3ff;
-    border-top: 1px solid #f3f3ff;
-}
+
 .border-btn{
-    background: transparent !important;
-    border: 1px solid var(--text);
-    box-shadow: 1px 1px 20px var(--text);
-    animation-name: saltarBtn;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
+   background-color: var(--text) !important;
+   color: var(--bg-header);
+ 
 }
  
 
@@ -170,6 +173,12 @@ nav{
     }
 }
 
+/**seccion 2  */
+
+.galery-section a{
+    border-left: 1px solid #f3f3ff;
+    border-top: 1px solid #f3f3ff;
+}
 
 .galery-section{
     display: flex;
@@ -203,6 +212,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+   
 }
 .galery-title{
     font-size: 2rem;
@@ -216,6 +226,7 @@ nav{
     flex-direction: column;
     text-align: center;
     gap: 20px;
+
 
 }
 
